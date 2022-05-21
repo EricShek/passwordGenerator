@@ -65,6 +65,11 @@ function generatePassword() {
          finalpassword= finalpassword+ isLowercase[positionString] +isUppercase[positionString]+ isNumber[positionString] + isSpecialcharacter[positionString]
 
 
+
+        //  for (i=0; size.length;i++) {
+        //   finalpassword= finalpassword+ isLowercase[positionString] +isUppercase[positionString]+ isNumber[positionString] + isSpecialcharacter[positionString]
+
+         }
          return finalpassword
         }
 
@@ -72,7 +77,7 @@ function generatePassword() {
 
   
   
-}
+
 
 
 
