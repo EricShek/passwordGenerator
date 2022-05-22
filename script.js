@@ -35,7 +35,7 @@ function generatePassword() {
       Array.prototype.push.apply(allCarr, haveLowercase);
     }
 
-    if (confirm("include uppercae?")) {
+    if (confirm("include uppercase?")) {
       Array.prototype.push.apply(allCarr, haveUppercase);
     }
 
